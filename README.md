@@ -1,0 +1,1 @@
+# Asanbaeva_Uulkyz_educational_practice
