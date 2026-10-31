@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+</head>
+<body>
+      <header>
+        <h1>Лилич Лилия</h1>
+        <img src="photo.jpg" alt="Фото Лилии" width="200">
+    </header>
+     <section>
+        <h2>О себе</h2>
+        <p>
+            Начинающий веб-разработчик, увлечённая созданием современных 
+            и удобных веб-приложений. Стремлюсь постоянно учиться и 
+            развиваться в сфере IT.
+        </p>
+    </section>
+      <section>
+        <h2>Навыки</h2>
+        <ul>
+            <li>HTML5 и CSS3</li>
+            <li>JavaScript (базовый уровень)</li>
+            <li>Git и GitHub</li>
+            <li>Работа с VS Code</li>
+            <li>Английский язык — B1</li>
+        </ul>
+    </section>
+      <section>
+        <h2>Контакты</h2>
+        <p>
+            Email: <a href="mailto:lilia@example.com">lilia@example.com</a><br>
+            Телефон: <a href="tel:+79001234567">+7 (900) 123-45-67</a>
+        </p>
+    </section>
+    <section>
+        <h2>Обратная связь</h2>
+        <form action="/submit" method="post">
+
+            <p>
+                <label for="name">Имя:</label><br>
+                <input type="text" id="name" name="name" required>
+            </p>
+
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+
+            <p>
+                <label for="date">Дата:</label><br>
+                <input type="date" id="date" name="date">
+            </p>
+
+            <p>Выберите трек:</p>
+            <p>
+                <label>
+                    <input type="radio" name="track" value="frontend" required>
+                    Frontend
+                </label><br>
+                <label>
+                    <input type="radio" name="track" value="backend">
+                    Backend
+                </label><br>
+                <label>
+                    <input type="radio" name="track" value="fullstack">
+                    Fullstack
+                </label>
+            </p>
+
+            <p>
+                <label for="city">Город:</label><br>
+                <select id="city" name="city">
+                    <option value="moscow">Москва</option>
+                    <option value="spb">Санкт-Петербург</option>
+                    <option value="ekb">Екатеринбург</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="question">Ваш вопрос:</label><br>
+                <textarea id="question" name="question" rows="4" cols="40"></textarea>
+            </p>
+
+            <p>
+                <label>
+                    <input type="checkbox" name="agree" required>
+                    Я согласна на обработку персональных данных
+                </label>
+            </p>
+
+            <p>
+                <button type="submit">Отправить</button>
+            </p>
+
+        </form>
+    </section>
+<footer>
+        <p>&copy; 2026 Лилич Лилия</p>
+    </footer>
+</body>
+</html>

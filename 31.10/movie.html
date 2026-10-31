@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой любимый фильм</title>
+</head>
+<body>
+     <header>
+        <h1>Мой любимый фильм — «Гарри Поттер»</h1>
+        <img src="гарри.webp" alt="Постер фильма Гарри Поттер" width="300">
+    </header>
+        <main>
+        <section>
+            <h2>О фильме</h2>
+            <p>
+                «Гарри Поттер» — серия из восьми фэнтезийных фильмов, снятых по
+                мотивам книг Джоан Роулинг. История рассказывает о мальчике-волшебнике,
+                который узнаёт о своём магическом происхождении и поступает в школу
+                чародейства и волшебства Хогвартс.
+            </p>
+        </section>
+              <section>
+            <h2>Почему мне нравится этот фильм</h2>
+            <ul>
+                <li>Волшебный мир, в который хочется вернуться</li>
+                <li>Тема дружбы и верности</li>
+                <li>Потрясающая музыка Джона Уильямса</li>
+                <li>Развитие героев на протяжении всех частей</li>
+                <li>Борьба добра со злом</li>
+            </ul>
+        </section>
+         <section>
+            <h2>Полезные ссылки</h2>
+            <p>
+                <a href="https://www.kinopoisk.ru/film/689/?socialAlias=MTM0NjAyODA0" target="_blank">
+                    Гарри Поттер на Кинопоиске
+                </a>
+            </p>
+        </section>
+        <section>
+            <h2>Оцените фильм</h2>
+            <form action="/rate" method="post">
+                <p>
+                    <label for="rating">Ваша оценка (от 1 до 10):</label><br>
+                    <input type="number" id="rating" name="rating"
+                           min="1" max="10" required>
+                </p>
+                <p>
+                    <label for="comment">Комментарий:</label><br>
+                    <textarea id="comment" name="comment"
+                              rows="3" cols="40"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Отправить оценку</button>
+                </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Лилич Лилия</p>
+    </footer>
+</body>
+</html>
