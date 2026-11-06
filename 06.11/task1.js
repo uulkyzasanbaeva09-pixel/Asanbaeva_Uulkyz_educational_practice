@@ -25,3 +25,5 @@ checkWeather(-5)
     .catch(function(error) {
         console.log("Ошибка для -5: " + error.message);
     });
+//Результат для 5: Тепло!
+//Ошибка для -5: Холодно!
